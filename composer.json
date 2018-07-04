@@ -1,0 +1,27 @@
+{
+    "name": "hustshenl/aliyun-sms",
+    "description": "aliyun sms",
+    "keywords": ["aliyun", "sms"],
+    "type": "aliyun-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/hustshenl/aliyun-sms/issues",
+        "wiki": "https://github.com/hustshenl/aliyun-sms/wiki",
+        "source": "https://github.com/hustshenl/aliyun-sms"
+    },
+    "authors": [
+        {
+            "name": "Shen.L",
+            "email": "shen@shenl.com"
+        }
+    ],
+    "require": {
+        "php": ">5.5",
+        "hustshenl/aliyun-core":"~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aliyun\\Api\\Sms\\": "src"
+        }
+    }
+}
